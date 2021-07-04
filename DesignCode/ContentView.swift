@@ -36,6 +36,9 @@ struct ContentView: View {
                 .padding()
                 
                 Spacer()
+                
+                Text("Hello World")
+                
                 Image("Card1")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
